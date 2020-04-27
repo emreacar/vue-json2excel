@@ -1,7 +1,7 @@
 <template>
   <button @click="exportExcel">
     <slot>
-      Export Excel
+      Download as Excel
     </slot>
   </button>
 </template>
