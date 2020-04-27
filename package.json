@@ -2,9 +2,9 @@
   "name": "vue-json2excel",
   "version": "1.0.0",
   "description": "Export JSON based data to excel file",
-  "main": "index.js",
+  "main": "dist/plugin.js",
   "scripts": {
-    "test": "test"
+    "build": "rimraf ./dist && webpack --config ./webpack.config.js"
   },
   "repository": {
     "type": "git",
