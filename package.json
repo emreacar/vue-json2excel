@@ -1,0 +1,30 @@
+{
+  "name": "vue-json2excel",
+  "version": "1.0.0",
+  "description": "Export JSON based data to excel file",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emreacar/vue-json2excel.git"
+  },
+  "keywords": [
+    "export",
+    "excel",
+    "vueJS",
+    "vueExportExcel",
+    "json2excel",
+    "table2excel"
+  ],
+  "author": "Emre Acar",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/emreacar/vue-json2excel/issues"
+  },
+  "homepage": "https://github.com/emreacar/vue-json2excel#readme",
+  "dependencies": {
+    "xlsx": "^0.15.6"
+  }
+}
