@@ -1,5 +1,5 @@
 <template>
-  <button @click="save">
+  <button @click="exportExcel">
     <slot>
       Export Excel
     </slot>
@@ -26,7 +26,7 @@ export default {
     }
   },
   methods: {
-    save () {
+    exportExcel () {
       alert('OK')
     }
   }
